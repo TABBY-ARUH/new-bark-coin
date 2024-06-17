@@ -1,0 +1,39 @@
+/* WelcomePage.css */
+.welcome-page {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    color: gold; /* Gold text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.welcome-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-page p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.buy-button {
+    background-color: gold;
+    color: black; /* Black text color for contrast */
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: black;
+    color: gold; /* Invert colors on hover for visibility */
+}
+

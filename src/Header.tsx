@@ -1,26 +1,25 @@
-// src/Header.tsx
-
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Header.css';
 
 const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">Bark Coin</Link>
+        <Link to="/">Bark Coin</Link> {/* Use Link instead of anchor tag */}
       </div>
       <nav className="nav">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#development">Development</a></li>
-          <li><a href="#vision">Vision</a></li>
-          <li><a href="#tokenomics">Tokenomics</a></li>
-          <li><a href="#roadmap">Roadmap</a></li>
-          <li><a href="#community-governance">Community Governance</a></li>
-          <li><a href="#security-privacy">Security & Privacy</a></li>
-          <li><a href="#conclusion">Conclusion</a></li>
-          <li><a href="#contact-information">Contact Information</a></li>
+          {/* Use Link components for internal navigation */}
+          <li><Link to="#about">About</Link></li>
+          <li><Link to="#development">Development</Link></li>
+          <li><Link to="#vision">Vision</Link></li>
+          <li><Link to="#tokenomics">Tokenomics</Link></li>
+          <li><Link to="#roadmap">Roadmap</Link></li>
+          <li><Link to="#community-governance">Community Governance</Link></li>
+          <li><Link to="#security-privacy">Security & Privacy</Link></li>
+          <li><Link to="#conclusion">Conclusion</Link></li>
+          <li><Link to="#contact-information">Contact Information</Link></li>
         </ul>
       </nav>
     </header>
@@ -28,5 +27,3 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-
-

@@ -1,16 +1,15 @@
 import React from 'react';
-import Layout from './Layout';
+import './SecurityPrivacy.css'; // Make sure this path is correct
 
-const SecurityPrivacy = () => {
+const SecurityPrivacy: React.FC = () => {
   return (
-    <Layout>
-      <div className="security-privacy">
-        <h2>Security and Privacy</h2>
-        <p>Privacy: Advanced cryptographic protocols to protect user data and transaction details.</p>
-        <p>Security: Regular audits and robust security measures to ensure platform and user safety.</p>
-      </div>
-    </Layout>
+    <div className="security-privacy"> {/* class applied here */}
+      <h2 className="gold-text">Security and Privacy</h2>
+      <p className="gold-text">Privacy: Advanced cryptographic protocols to protect user data and transaction details.</p>
+      <p className="gold-text">Security: Regular audits and robust security measures to ensure platform and user safety.</p>
+    </div>
   );
 };
 
 export default SecurityPrivacy;
+

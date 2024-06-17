@@ -1,0 +1,9 @@
+/* Conclusion.css */
+.conclusion {
+    color: gold; /* Applies gold color to text */
+  }
+  
+  .gold-text {
+    color: inherit; /* Inherits parent color (gold) for text */
+  }
+  
